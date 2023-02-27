@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: mnGcpFirestore
+netty:
+  default:
+    allocator:
+      max-order: 3
+gcp:
+  project-id: 'snappy-way-378809'
+  credentials:
+    location: ./src/main/resources/my-gcp-creds.json
